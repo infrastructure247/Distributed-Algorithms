@@ -1,6 +1,7 @@
 ### About System
 1. P2P message passing distributed system. So message sent in a channel will be immediately consumed by destination process, if it is up and running.
 2. Each Process will have two channels between each processes (Write and Read Channel)
+3. Each Process(invoked as threads) runs concurrently.
 
 ### Algorithms
 1. Lai-Yang Snapshot
